@@ -1,0 +1,284 @@
+<html>
+	<head>
+		<title>9 Fun Buttons</title>
+		<style>
+			body
+			{
+				background-color: lavenderblush;
+				color: mediumvioletred;
+				border-color: mediumvioletred;
+				border-style: solid;
+				font-size: 30;
+				text-align: center;
+				padding: 25;
+			}
+			button
+			{
+				background-color: snow;
+				color: mediumvioletred;
+				border-color: mediumvioletred;
+				border-style: solid;
+				font-size: 20;
+			}
+			button:hover
+			{
+				transition: 0.5s;
+				opacity: 50%;
+				background-color: lavenderblush;
+			}
+			div
+			{
+				display: inline-block;
+				border-style: double;
+				padding: 25;
+				padding-top: 0;
+				font-size: 25;
+			}
+			hr
+			{
+				border-color: mediumvioletred;
+				border-style: solid;
+			}
+			img
+			{
+				width: 200;
+				border-style: solid;
+				border-width: thin;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p>9 Fun Buttons</p>
+		<button onclick="Button1()">Button 1</button>
+		<button onclick="Button2()">Button 2</button>
+		<button onclick="Button3()">Button 3</button>
+		<br>
+		<button onclick="Button4()">Button 4</button>
+		<button onclick="Button5()">Button 5</button>
+		<button onclick="Button6()">Button 6</button>
+		<br>
+		<button onclick="Button7()">Button 7</button>
+		<button onclick="Button8()">Button 8</button>
+		<button onclick="Button9()">Button 9</button>
+		
+		<br><br>
+		
+		<div id="button1" style="display:none;">
+			<p>Button 1</p>
+			<hr>
+			<p>Here's some pictures of me that you haven't seen before!</p>
+			<p>(Text me and tell me how cute I am)</p>
+			<img src="me4.JPG">
+			<img src="me2.JPG">
+			<br>
+			<img src="me3.PNG">
+			<img src="me1.JPG">
+		</div>
+		
+		<div id="button2" style="display:none; padding-bottom:0;">
+			<p>Button 2</p>
+			<hr>
+			<p>I love you baby</p>
+			<p>Like more than anything</p>
+			<p>I would do anything for you</p>
+			<p>Literally anything</p>
+			<p>If you ever need anything just tell me</p>
+			<p>Then I'll do it for you</p>
+			<p>Never forget how much I love you</p>
+		</div>
+		
+		<div id="button3" style="display:none;">
+			<p>Button 3</p>
+			<hr>
+			<p>Here's some pictures of my brothers!</p>
+			<img src="alex1.JPG">
+			<img src="alex2.JPG">
+			<br>
+			<img src="lucas1.JPG">
+			<img src="lucas2.JPG">
+		</div>
+		
+		<div id="button4" style="display:none; padding-bottom:0;">
+			<p>Button 4</p>
+			<hr>
+			<p>You're cute</p>
+			<p>And hot</p>
+			<p>And adorable</p>
+			<p>And beautiful</p>
+			<p>And gorgeous</p>
+			<p>And stunning</p>
+			<p>And handsome</p>
+			<p>And breath-taking</p>
+			<p>And perfect</p>
+		</div>
+		
+		<div id="button5" style="display:none;">
+			<p>Button 5</p>
+			<hr>
+			<p>Here's some memes!</p>
+			<img src="meme1.jpg">
+			<img src="meme2.jpg">
+			<br>
+			<img src="meme3.jpg">
+			<img src="meme4.jpg">
+		</div>
+		
+		<div id="button6" style="display:none; padding-bottom:0;">
+			<p>Button 6</p>
+			<hr>
+			<p>Hi</p>
+			<p>I like your voice</p>
+			<p>And your face</p>
+			<p>I can't wait to call you tonight</p>
+			<p>Then I can see your face</p>
+			<p>And hear your voice</p>
+		</div>
+		
+		<div id="button7" style="display:none;">
+			<p>Button 7</p>
+			<hr>
+			<p>Here's some pictures of us being cute!</p>
+			<img src="us1.PNG">
+			<img src="us2.PNG">
+			<br>
+			<img src="us3.PNG">
+			<img src="us4.PNG">
+		</div>
+		
+		<div id="button8" style="display:none; padding-bottom:0;">
+			<p>Button 8</p>
+			<hr>
+			<p>I miss you</p>
+			<p>So much</p>
+			<p>I can't wait until I can see you again</p>
+			<p>I want to cuddle</p>
+			<p>And kiss you</p>
+			<p>And hug you</p>
+			<p>And touch you</p>
+			<p>And everything else that we used to be able to do</p>
+		</div>
+		
+		<div id="button9" style="display:none;">
+			<p>Button 9</p>
+			<hr>
+			<p>Here's some cute animals!</p>
+			<img src="jax.PNG">
+			<img src="rexi.PNG">
+			<br>
+			<img src="gigi.jpg">
+			<img src="pete.PNG">
+		</div>
+		
+		<script>
+			function Button1()
+			{
+				document.getElementById("button1").style.display = "";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button2()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button3()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button4()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button5()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button6()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button7()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button8()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "";
+				document.getElementById("button9").style.display = "none";
+			}
+			function Button9()
+			{
+				document.getElementById("button1").style.display = "none";
+				document.getElementById("button2").style.display = "none";
+				document.getElementById("button3").style.display = "none";
+				document.getElementById("button4").style.display = "none";
+				document.getElementById("button5").style.display = "none";
+				document.getElementById("button6").style.display = "none";
+				document.getElementById("button7").style.display = "none";
+				document.getElementById("button8").style.display = "none";
+				document.getElementById("button9").style.display = "";
+			}
+		</script>
+	</body>
+</html>
